@@ -1,0 +1,559 @@
+---
+layout: default
+title: "Search Rooms"
+---
+
+<div class="main">
+    <div class="rooms-banner">
+        <div class="container">
+            <div class="rooms-banner-content">
+              <h1>
+                  Search
+              </h1>
+            </div>
+        </div>
+    </div>
+    <div class="rooms-filter ">
+        <div class="container p-re">
+            <ul class="rooms-filter-list">
+                <li class="p-re rooms-filter-item">
+                    <p>
+                        stay price
+                    </p>
+                    <img class="m-l-10" src="./assets/images/icon-arrow-down.png" alt="">
+                    <ul class="filter-options">
+                        <li class="filter-options-item">
+                            <a href="" class="filter-options-link">
+                                lowest price
+                            </a>
+                        </li>
+                        <li class="filter-options-item">
+                            <a href="" class="filter-options-link">
+                                heighest price
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="p-re rooms-filter-item"> 
+                    <p>
+                        room size
+                    </p>
+                    <img class="m-l-10" src="./assets/images/icon-arrow-down.png" alt="">
+                    <ul class="filter-options">
+                        <li class="filter-options-item">
+                            <a href="" class="filter-options-link">
+                                larger room
+                            </a>
+                        </li>
+                        <li class="filter-options-item">
+                            <a href="" class="filter-options-link">
+                                smallest room
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="rooms-filter-display">
+                <a class="active icon icon-grid" ></a>
+                <a class="icon icon-list" ></a>
+            </div>
+        </div>
+    </div>
+    <div class="rooms-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <form action="">
+                            <div class="sidebar-tour">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="sidebar-tour-item">
+                                            <div class="box">
+                                                <h6 class="box-title">
+                                                    Check-in
+                                                </h6>
+                                                <div class="box-choose m-t-15">
+                                                    <h1 class="box-number">
+                                                        25
+                                                    </h1>
+                                                    <div class="box-form ">
+                                                        <h6 class="box-form-text">
+                                                            Jan
+                                                        </h6>
+                                                        <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="sidebar-tour-item">
+                                            <div class="box">
+                                                <h6 class="box-title">
+                                                    Check-out
+                                                </h6>
+                                                <div class="box-choose m-t-15">
+                                                    <h1 class="box-number">
+                                                        25
+                                                    </h1>
+                                                    <div class="box-form ">
+                                                        <h6 class="box-form-text">
+                                                            Jan
+                                                        </h6>
+                                                        <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="sidebar-tour-item">
+                                            <div class="box">
+                                                <h6 class="box-title">
+                                                    guests
+                                                </h6>
+                                                <div class="box-choose m-t-15">
+                                                    <h1 class="box-number">
+                                                        25
+                                                    </h1>
+                                                    <div class="box-form ">                                     
+                                                        <img class="toggle" src="./assets/images/icon-arrow-down.png" alt="">
+                                                        <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-6">
+                                        <div class="sidebar-tour-item">
+                                            <div class="box">
+                                                <h6 class="box-title">
+                                                   nights
+                                                </h6>
+                                                <div class="box-choose m-t-15">
+                                                    <h1 class="box-number one">
+                                                        25
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-range m-t-20">
+                                <div class="border">
+
+                                </div>
+                                <div class="sidebar-range-slider">
+                                    <div class="sidebar-range-header">
+                                        <h3>
+                                            Max Night Price :
+                                        </h3>
+                                        <div class="price">
+                                            <p class="price-number" id="price-number"></p>
+                                            <span>$</span>
+                                        </div>
+                                    </div>
+                                    <div class="slidecontainer m-t-24">
+                                        <input type="range" min="1" max="700" value="50" class="slider" id="myRange">
+                                    </div>
+                                </div>
+                                <div class="border">
+
+                                </div>
+                            </div>
+                            <div class="sidebar-service">
+                                <div class="sidebar-service-option">
+                                    <h3>
+                                        Services
+                                    </h3>
+                                    <img class="rotate" src="./assets/images/icon-down-arrow-grey.svg" alt="">
+                                    <!-- <img class="rotate" src="./assets/images/icon-down-arrow-grey.svg" alt=""> -->
+                                </div>
+                                <div class="checkbox-list m-b-30">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                king Beds
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Welcome Drink
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Bike Rental
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Private Bathroom
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Swimming Pool
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                No Smoking
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Television
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border ">
+                                </div>
+                            </div>
+                            <div class="sidebar-service">
+                                <div class="sidebar-service-option">
+                                    <h3>
+                                        Extra Services :
+                                    </h3>
+                                    <img class="rotate" src="./assets/images/icon-down-arrow-grey.svg" alt="">
+                                    <!-- <img class="rotate" src="./assets/images/icon-down-arrow-grey.svg" alt=""> -->
+                                </div>
+                                <div class="checkbox-list m-b-30">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Breakfast
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Satellite TV
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Laundry
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Car Rental
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Beach Loungers
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Sea View
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>
+                                                <input type="checkbox">
+                                                Wifi
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border">
+                                </div>
+                            </div>
+                        </form>
+                        <script type="text/javascript">
+                            var price = document.querySelector('#price-number');
+                            var range = document.querySelector('#myRange');
+                            price.innerHTML = range.value;
+                            range.oninput  = function() {
+                                price.innerHTML = this.value;
+                            }
+                            
+                           
+                        </script>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-lg-6 item">
+                                <div class="content-item">
+                                    <div class="room-info">
+                                        <div class="room-info-img p-re">
+                                            <img src="./assets/images/roms-1.jpg" alt="">
+                                            <div class="room-star">
+                                                <p>
+                                                    hotel rome
+                                                </p>
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="room-info-text">
+                                            <h1 class="room-info-name">
+                                                small room
+                                            </h1>
+                                            <ul class="m-t-10">
+                                                <li class="m-r-20">
+                                                    <img class="m-r-10" src="./assets/images/icon-user-grey.svg" alt="">
+                                                    1 guests
+                                                </li>
+                                                <li>
+                                                    <img class="m-r-10" src="./assets/images/icon-plan-grey.svg" alt="">
+                                                    15 Ft²
+                                                </li>
+                                            </ul>
+                                            <p class="m-t-20">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+                                                molestie nisl. Duis ac mi leo.
+                                            </p>
+                                            <a href="" class="btn btn-primary m-t-20">
+                                                book now from 30 $
+                                            </a>
+                                            <div class="item-border m-y-20">
+                                            </div>
+                                            <div class="content-item-service">
+                                                <div class="rm-icon">
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14-1.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-18.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-10.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <a href="" class="more">
+                                                    <span>
+                                                        FUll info
+                                                    </span>
+                                                    <img src="./assets/images/icon-right-arrow-grey.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 item">
+                                <div class="content-item">
+                                    <div class="room-info">
+                                        <div class="room-info-img p-re">
+                                            <img src="./assets/images/roms2.jpg" alt="">
+                                            <div class="room-star">
+                                                <p>
+                                                    HOTEL LONDON
+                                                </p>
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="room-info-text">
+                                            <h1 class="room-info-name">
+                                                Room with View
+                                            </h1>
+                                            <ul class="m-t-10">
+                                                <li class="m-r-20">
+                                                    <img class="m-r-10" src="./assets/images/icon-user-grey.svg" alt="">
+                                                    4 guests
+                                                </li>
+                                                <li>
+                                                    <img class="m-r-10" src="./assets/images/icon-plan-grey.svg" alt="">
+                                                    40 Ft²
+                                                </li>
+                                            </ul>
+                                            <p class="m-t-20">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+                                                molestie nisl. Duis ac mi leo.
+                                            </p>
+                                            <a href="" class="btn btn-primary m-t-20">
+                                                book now from 30 $
+                                            </a>
+                                            <div class="item-border m-y-20">
+                                            </div>
+                                            <div class="content-item-service">
+                                                <div class="rm-icon">
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14-1.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-18.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-10.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <a href="" class="more">
+                                                    <span>
+                                                        FUll info
+                                                    </span>
+                                                    <img src="./assets/images/icon-right-arrow-grey.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 item">
+                                <div class="content-item">
+                                    <div class="room-info">
+                                        <div class="room-info-img p-re">
+                                            <img src="./assets/images/roms3.jpg" alt="">
+                                            <div class="room-star">
+                                                <p>
+                                                    HOTEL LONDON
+                                                </p>
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="room-info-text">
+                                            <h1 class="room-info-name">
+                                                Apartment
+                                            </h1>
+                                            <ul class="m-t-10">
+                                                <li class="m-r-20">
+                                                    <img class="m-r-10" src="./assets/images/icon-user-grey.svg" alt="">
+                                                    5 guests
+                                                </li>
+                                                <li>
+                                                    <img class="m-r-10" src="./assets/images/icon-plan-grey.svg" alt="">
+                                                    70 Ft²
+                                                </li>
+                                            </ul>
+                                            <p class="m-t-20">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+                                                molestie nisl. Duis ac mi leo.
+                                            </p>
+                                            <a href="" class="btn btn-primary m-t-20">
+                                                book now from 30 $
+                                            </a>
+                                            <div class="item-border m-y-20">
+                                            </div>
+                                            <div class="content-item-service">
+                                                <div class="rm-icon">
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14-1.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-18.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-10.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <a href="" class="more">
+                                                    <span>
+                                                        FUll info
+                                                    </span>
+                                                    <img src="./assets/images/icon-right-arrow-grey.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 item">
+                                <div class="content-item">
+                                    <div class="room-info">
+                                        <div class="room-info-img p-re">
+                                            <img src="./assets/images/roms4.jpg" alt="">
+                                            <div class="room-star">
+                                                <p>
+                                                    HOTEL NEW YORK
+                                                </p>
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                                <img src="./assets/images/icon-star-full-white.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="room-info-text">
+                                            <h1 class="room-info-name">
+                                                Luxury room
+                                            </h1>
+                                            <ul class="m-t-10">
+                                                <li class="m-r-20">
+                                                    <img class="m-r-10" src="./assets/images/icon-user-grey.svg" alt="">
+                                                    2 guests
+                                                </li>
+                                                <li>
+                                                    <img class="m-r-10" src="./assets/images/icon-plan-grey.svg" alt="">
+                                                    50 Ft²
+                                                </li>
+                                            </ul>
+                                            <p class="m-t-20">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+                                                molestie nisl. Duis ac mi leo.
+                                            </p>
+                                            <a href="" class="btn btn-primary m-t-20">
+                                                book now from 30 $
+                                            </a>
+                                            <div class="item-border m-y-20">
+                                            </div>
+                                            <div class="content-item-service">
+                                                <div class="rm-icon">
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14-1.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-18.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-14.png" alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img src="./assets/images/icon-10.png" alt="">
+                                                    </a>
+                                                </div>
+                                                <a href="" class="more">
+                                                    <span>
+                                                        FUll info
+                                                    </span>
+                                                    <img src="./assets/images/icon-right-arrow-grey.svg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
