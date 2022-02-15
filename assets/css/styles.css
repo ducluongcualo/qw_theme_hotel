@@ -673,6 +673,7 @@ a:hover {
   margin: 0;
   color: #727475;
   font-weight: normal;
+  line-height: 5rem;
 }
 .check-form-month {
   text-transform: inherit !important;
