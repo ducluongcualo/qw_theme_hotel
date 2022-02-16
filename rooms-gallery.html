@@ -223,85 +223,96 @@ title: "Room Gallery"
                     <div class="col-lg-4">
                         <div class="sidebar">
                             <div class="sidebar-booking">
-                                <div class="sidebar-tour">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="sidebar-tour-item">
-                                                <div class="box">
-                                                    <h6 class="box-title">
-                                                        Check-in
-                                                    </h6>
-                                                    <div class="box-choose m-t-15">
-                                                        <h1 class="box-number">
-                                                            25
-                                                        </h1>
-                                                        <div class="box-form ">
-                                                            <h6 class="box-form-text">
-                                                                Jan
-                                                            </h6>
-                                                            <img src="./assets/images/icon-arrow-down.png" alt="">
+                                <form action="">
+                                    <div class="sidebar-tour">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="sidebar-tour-item">
+                                                    <input type="text" id="check-in" class="input-check"
+                                                        placeholder="Check-out">
+                                                    <div class="box check-form-checkin">
+                                                        <h6 class="box-title">
+                                                            Check-in
+                                                        </h6>
+                                                        <div class="box-choose m-t-15">
+                                                            <h1 class="box-number" id="check-in-day">
+                                                                25
+                                                            </h1>
+                                                            <div class="box-form ">
+                                                                <h6 class="box-form-text" id="check-in-month">
+                                                                    Jan
+                                                                </h6>
+                                                                <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="sidebar-tour-item">
+                                                    <input type="text" id="check-out" class="input-check"
+                                                        placeholder="Check-in">
+                                                    <div class="box check-form-checkout">
+                                                        <h6 class="box-title">
+                                                            Check-out
+                                                        </h6>
+                                                        <div class="box-choose m-t-15">
+                                                            <h1 class="box-number" id="check-out-day">
+                                                                25
+                                                            </h1>
+                                                            <div class="box-form ">
+                                                                <h6 class="box-form-text" id="check-out-month">
+                                                                    Jan
+                                                                </h6>
+                                                                <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="sidebar-tour-item p-re">
+                                                    <div class="box">
+                                                        <h6 class="box-title">
+                                                            guests
+                                                        </h6>
+                                                        <div class="box-choose m-t-15">
+                                                            <h1 class="box-number" id="check-number">
+                                                                25
+                                                            </h1>
+                                                            <div class="box-number-input">
+                                                                <input type="number" id="check-input-number" max="99" value="01">
+                                                            </div>
+                                                            <div class="box-form ">
+                                                                <img class="toggle check-btn-plus"
+                                                                    src="./assets/images/icon-arrow-down.png" alt="">
+                                                                <img class="check-btn-prev"
+                                                                    src="./assets/images/icon-arrow-down.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="sidebar-tour-item">
+                                                    <div class="box">
+                                                        <h6 class="box-title">
+                                                            nights
+                                                        </h6>
+                                                        <div class="box-choose m-t-15">
+                                                            <h1 class="box-number one" id="check-day-count">
+                                                                25
+                                                            </h1>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="sidebar-tour-item">
-                                                <div class="box">
-                                                    <h6 class="box-title">
-                                                        Check-out
-                                                    </h6>
-                                                    <div class="box-choose m-t-15">
-                                                        <h1 class="box-number">
-                                                            25
-                                                        </h1>
-                                                        <div class="box-form ">
-                                                            <h6 class="box-form-text">
-                                                                Jan
-                                                            </h6>
-                                                            <img src="./assets/images/icon-arrow-down.png" alt="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="sidebar-tour-item">
-                                                <div class="box">
-                                                    <h6 class="box-title">
-                                                        guests
-                                                    </h6>
-                                                    <div class="box-choose m-t-15">
-                                                        <h1 class="box-number">
-                                                            25
-                                                        </h1>
-                                                        <div class="box-form ">                                     
-                                                            <img class="toggle" src="./assets/images/icon-arrow-down.png" alt="">
-                                                            <img src="./assets/images/icon-arrow-down.png" alt="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="sidebar-tour-item">
-                                                <div class="box">
-                                                    <h6 class="box-title">
-                                                       nights
-                                                    </h6>
-                                                    <div class="box-choose m-t-15">
-                                                        <h1 class="box-number one">
-                                                            25
-                                                        </h1>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="sidebar-tour-btn m-t-20">
+                                            <input type="submit" value="book now">
                                         </div>
                                     </div>
-                                    <div class="sidebar-tour-btn m-t-20">
-                                        <input type="submit" value="book now">
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                             <div class="sidebar-rooms m-t-40">
                                 <h3 class="sidebar-title">

@@ -86,13 +86,15 @@ title: "Home "
                             <div class="check-form-list">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-4 no-gutters">
-                                        <div class="check-form-item" id="check-in">
+                                        <div class="check-form-item">
+                                            <input type="text" id="check-in" class="input-check"
+                                                placeholder="Check-in">
                                             <div class="check-form-checkin">
                                                 <h6 class="m-b-10">check-in</h6>
                                                 <div class="check-form-date">
-                                                    <h1 class="check-form-day">25</h1>
+                                                    <h1 class="check-form-day" id="check-in-day">25</h1>
                                                     <div class="check-form-choose m-l-10">
-                                                        <h6 class="check-form-month ">
+                                                        <h6 class="check-form-month " id="check-in-month">
                                                             Jan
                                                         </h6>
                                                         <img src="./assets/images/icon-down-arrow-grey.svg" alt="">
@@ -100,33 +102,37 @@ title: "Home "
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- <input type="text" id="check-in" class="input-check-in" placeholder="Check-in"> -->
                                     </div>
                                     <div class="col-lg-4 col-md-4 no-gutters">
                                         <div class="check-form-item">
-                                            <h6 class="m-b-10">check-out</h6>
-                                            <div class="check-form-date">
-                                                <h1 class="check-form-day">25</h1>
-                                                <div class="check-form-choose m-l-10">
-                                                    <h6 class="check-form-month ">
-                                                        Jan
-                                                    </h6>
-                                                    <img src="./assets/images/icon-down-arrow-grey.svg" alt="">
+                                            <input type="text" id="check-out" class="input-check"
+                                            placeholder="Check-in">
+                                            <div class="check-form-checkout">
+                                                <h6 class="m-b-10">check-out</h6>
+                                                <div class="check-form-date" id="check-out">
+                                                    <h1 class="check-form-day" id="check-out-day">25</h1>
+                                                    <div class="check-form-choose m-l-10">
+                                                        <h6 class="check-form-month " id="check-out-month">
+                                                            Jan
+                                                        </h6>
+                                                        <img src="./assets/images/icon-down-arrow-grey.svg" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="col-lg-4 col-md-4 no-gutters">
-                                        <div class="check-form-item">
+                                        <div class="check-form-item p-re">
                                             <h6 class="m-b-10">Guests</h6>
                                             <div class="check-form-date">
-                                                <h1 class="check-form-day">25</h1>
+                                                <h1 class="check-form-day" id="check-number">25</h1>
+                                                <div class="box-number-input">
+                                                    <input type="number" id="check-input-number" max="99" value="01">
+                                                </div>
                                                 <div class="check-form-choose m-l-10">
-                                                    <img src="./assets/images/icon-down-arrow-grey.svg " class="prev "
-                                                        alt="">
+                                                    <img src="./assets/images/icon-down-arrow-grey.svg "  class="check-btn-plus plus" alt="">
 
-                                                    <img src="./assets/images/icon-down-arrow-grey.svg" alt="">
+                                                    <img src="./assets/images/icon-down-arrow-grey.svg" class="check-btn-prev prev " alt="" >
                                                 </div>
                                             </div>
                                         </div>

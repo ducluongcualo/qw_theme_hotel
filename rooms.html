@@ -69,16 +69,18 @@ title: "Search Rooms"
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-6">
                                         <div class="sidebar-tour-item">
-                                            <div class="box">
+                                            <input type="text" id="check-in" class="input-check-in"
+                                            placeholder="Check-out">
+                                            <div class="box check-form-checkin">
                                                 <h6 class="box-title">
                                                     Check-in
                                                 </h6>
                                                 <div class="box-choose m-t-15">
-                                                    <h1 class="box-number">
+                                                    <h1 class="box-number" id="check-in-day">
                                                         25
                                                     </h1>
                                                     <div class="box-form ">
-                                                        <h6 class="box-form-text">
+                                                        <h6 class="box-form-text" id="check-in-month">
                                                             Jan
                                                         </h6>
                                                         <img src="./assets/images/icon-arrow-down.png" alt="">
@@ -89,16 +91,18 @@ title: "Search Rooms"
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-6">
                                         <div class="sidebar-tour-item">
-                                            <div class="box">
+                                            <input type="text" id="check-out" class="input-check-in"
+                                            placeholder="Check-in">
+                                            <div class="box check-form-checkout">
                                                 <h6 class="box-title">
                                                     Check-out
                                                 </h6>
-                                                <div class="box-choose m-t-15">
-                                                    <h1 class="box-number">
+                                                <div class="box-choose m-t-15" id="check-out">
+                                                    <h1 class="box-number" id="check-out-day">
                                                         25
                                                     </h1>
                                                     <div class="box-form ">
-                                                        <h6 class="box-form-text">
+                                                        <h6 class="box-form-text" id="check-out-month">
                                                             Jan
                                                         </h6>
                                                         <img src="./assets/images/icon-arrow-down.png" alt="">
@@ -113,13 +117,13 @@ title: "Search Rooms"
                                                 <h6 class="box-title">
                                                     guests
                                                 </h6>
-                                                <div class="box-choose m-t-15">
-                                                    <h1 class="box-number">
+                                                <div class="box-choose check-form-date m-t-15">
+                                                    <h1 class="box-number" id="check-number">
                                                         25
                                                     </h1>
                                                     <div class="box-form ">                                     
-                                                        <img class="toggle" src="./assets/images/icon-arrow-down.png" alt="">
-                                                        <img src="./assets/images/icon-arrow-down.png" alt="">
+                                                        <img class="toggle check-btn-plus" src="./assets/images/icon-arrow-down.png" alt="">
+                                                        <img class="check-btn-prev" src="./assets/images/icon-arrow-down.png " alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,7 +136,7 @@ title: "Search Rooms"
                                                    nights
                                                 </h6>
                                                 <div class="box-choose m-t-15">
-                                                    <h1 class="box-number one">
+                                                    <h1 class="box-number one" id="check-day-count">
                                                         25
                                                     </h1>
                                                 </div>

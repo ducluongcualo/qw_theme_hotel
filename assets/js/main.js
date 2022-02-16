@@ -14,18 +14,6 @@ $('.slider .owl-carousel').owlCarousel({
     navText: ['<button type="button" class="btn btn-slider btn-slider-prev"> <i class="far fa-chevron-left"></i> </button>', '<button type="button" class="btn btn-slider btn-slider-next"><i class="far fa-chevron-right"></i> </button>'],
 })
 
-// datepicker
-
-// $("#check-in").datepicker({
-//     nextText: "NEXT",
-//     prevText: "PREV",
-//     changeMonth: false,
-//     numberOfMonths: 1,
-//     onClose: function() {  
-//         console.log('hello')
-//      }
-//  });
-
 // header navbar
 
 $('.header-content-icon').click(function () {
@@ -119,9 +107,6 @@ $('.rooms-filter-display .icon-grid').click(function () {
     $('.content .item').addClass('col-lg-6')
 })
 
-
-
-
 // gallery slide 
 $('.gallery-slide-list').slick({
     slidesToShow: 1,
@@ -142,3 +127,25 @@ $('.gallery-slide-nav').slick({
     focusOnSelect: true,
     draggable: false,
 })
+
+// check-form count
+console.log();
+
+$('.check-btn-prev').click(function() {
+    var count = $('#check-number').text();
+    if(count > 1)  {
+        count --; 
+        $('#check-number').text(count);
+    }
+});
+
+$('.check-btn-plus').click(function() {
+    var count = $('#check-number').text();
+    if(count < 99) {
+        count ++; 
+    $('#check-number').text(count);
+    }
+});
+
+
+// check input guests 
